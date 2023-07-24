@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+/* body>*:not(.header) {
+    margin-top: 4.5rem;
+} */
+
+/* .landing-page {
+    margin-top: 0;
+} */
+
+/* @media only screen and (max-width: 715px) {
+    body>*:not(.header) {
+        margin-top: 5.5rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    body>*:not(.header) {
+        margin-top: 6.5rem;
+    }
+} */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+button:active {
+  transform: scale(0.85);
+}
+
+button {
+  transition: 0.5s;
+}

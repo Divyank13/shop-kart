@@ -1,0 +1,67 @@
+.price-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-details .price-details-card {
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 8px;
+    width: 18rem;
+    padding: 1rem;
+}
+
+.price-details .price-details-card .heading{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.price-details .price-details-card .cart-items-details{
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.price-details .price-details-card .cart-items-details .product-price-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-details .price-details-card .cart-items-details .product-price-name .item-title{
+    font-size: 1.1rem;
+}
+
+.price-details .price-details-card .cart-items-details .product-price-name .item-price{
+    font-size: 0.9rem;
+}
+
+.price-details .price-details-card .price-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.price-details .price-details-card .checkout {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transition: 0.25s;
+    border: 0;
+    width: 100%;
+}
+
+.price-details .price-details-card .checkout:hover {
+    color: rgba(0, 0, 0, 0.9);
+    background-color: #fff;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.price-details .price-details-card .checkout:active {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+}

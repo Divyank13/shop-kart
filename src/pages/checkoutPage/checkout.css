@@ -1,0 +1,345 @@
+@media only screen and (max-width: 715px) {
+    .checkout-page {
+        margin-top: 5.5rem !important;
+    }
+
+    .checkout-page .checkout-parent {
+        flex-direction: column;
+        width: 80% !important;
+    }
+
+    .checkout-page .modal-container {
+        width: 80% !important;
+        margin: auto;
+    }
+    .checkout-page .checkout-parent .address-div {
+        width: 80% !important;
+        height: 40vh;
+    }
+    
+    .checkout-page .checkout-parent .checkout-card {
+        width: 80% !important;
+    }
+
+    .checkout-page .address-modal-container .add-address-modal {
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .checkout-page {
+        margin-top: 6.5rem !important;
+    }
+    .checkout-page .address-modal-container .add-address-modal {
+        width: 90% !important;
+    }
+
+}
+
+.checkout-page {
+    margin-top: 4.5rem;
+}
+
+.checkout-page .modal-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-page .modal-container .confetti {
+    margin: auto;
+}
+
+.checkout-page .modal-container .checkout-modal {
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 8px;
+    border-radius: 0.25rem;
+    padding: 1rem 2rem;
+}
+
+.checkout-page .modal-container .checkout-modal .heading {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.checkout-page .modal-container .checkout-modal .details * {
+    font-weight: 400;
+    margin-bottom: 0.25rem;
+}
+
+.checkout-page .modal-container .checkout-modal .details .total-price, .checkout-page .modal-container .checkout-modal .details .eta {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
+.checkout-page .modal-container .checkout-modal .details .declaration {
+    font-size: 1.25rem;
+}
+
+.checkout-page .modal-container .checkout-modal .details .recipient-name, .checkout-page .modal-container .checkout-modal .details .recipient-address, .checkout-page .modal-container .checkout-modal .details .recipient-number {
+    font-style: italic;
+}
+
+.checkout-page .modal-container .checkout-modal .go-to-home-btn {
+    font-size: 1.15rem;
+    border-radius: 0.25rem;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 0.5px;
+    margin-top: 1.5rem;
+    transition: 0.65s;
+}
+
+.checkout-page .modal-container .checkout-modal .go-to-home-btn:hover {
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.checkout-page .modal-container .checkout-modal .go-to-home-btn:active {
+    background-color: #000;
+    color: #fff;
+}
+
+.checkout-page .modal-container .checkout-modal .go-to-home-btn .left-arrow {
+    margin-right: 0.5rem;
+}
+
+.checkout-page .address-modal-container {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.checkout-page .address-modal-container .add-address-modal {
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 13px;
+    width: 50%;
+    border-radius: 0.45rem;
+}
+
+.checkout-page .address-modal-container .add-address-modal * {
+    font-size: 1.25rem;
+    margin: 0.15rem 0;
+    /* padding: 0.5rem; */
+}
+
+.checkout-page .address-modal-container .add-address-modal .two-inp-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-page .address-modal-container .add-address-modal .name-input {
+    width: 100%;
+    padding: 0.5rem;
+
+}
+
+.checkout-page .address-modal-container .add-address-modal .phone-input {
+    width: 48%;
+    padding: 0.5rem;
+}
+
+.checkout-page .address-modal-container .add-address-modal .pincode-input {
+    width: 48%;
+    padding: 0.5rem;
+}
+
+.checkout-page .address-modal-container .add-address-modal .city-input {
+    width: 48%;
+    padding: 0.5rem;
+}
+
+.checkout-page .address-modal-container .add-address-modal .state-input {
+    width: 48%;
+    padding: 0.5rem;
+}
+
+.checkout-page .address-modal-container .add-address-modal textarea {
+    font-size: 1.05rem;
+    resize: none;
+}
+
+.checkout-page .address-modal-container .add-address-modal .add-address-btn, .checkout-page .address-modal-container .add-address-modal .cancel-add-address {
+    width: 50%;
+    border-radius: 0.25rem;
+    border-width: 0.25px;
+    transition: 0.75s;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.checkout-page .address-modal-container .add-address-modal .add-address-btn:hover, .checkout-page .address-modal-container .add-address-modal .cancel-add-address:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+}
+
+.checkout-page .address-modal-container .add-address-modal .add-address-btn:active, .checkout-page .address-modal-container .add-address-modal .cancel-add-address:active {
+    background-color: #000;
+    color: #fff;
+}
+
+.checkout-page .checkout {
+    position: relative;
+}
+
+.checkout-page .checkout-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.checkout-page .checkout-parent {
+    display: flex;
+    width: 60%;
+    margin: 1rem auto;
+}
+
+.checkout-page .checkout-parent .address-div {
+    width: 50%;
+    margin: 1rem;
+    max-height: 70vh;
+    overflow: auto;
+}
+
+.checkout-page .checkout-parent .address-div .radio-container {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    transition: 0.75s;
+}
+
+.checkout-page .checkout-parent .address-div .add-address {
+    width: 80%;
+    margin: auto;
+    display: block;
+    font-size: 1.25rem;
+    border-radius: 0.25rem;
+    border-width: 0.25px;
+    transition: 0.5s;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.checkout-page .checkout-parent .address-div .add-address:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.checkout-page .checkout-parent .address-div .add-address:active {
+    color: #fff;
+    background-color: #000;
+}
+
+.checkout-page .checkout-parent .address-div .radio-container:hover {
+    background-color: rgb(219, 234, 254);
+}
+
+.checkout-page .checkout-parent .address-div .address-label {
+    cursor: pointer;
+}
+
+.checkout-page .checkout-parent .address-div .address-label .radio {
+    display: flex;
+}
+
+.checkout-page .checkout-parent .address-div .address-label .radio .name {
+    margin-left: 1rem;
+}
+
+.checkout-page .checkout-parent .checkout-card {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+    width: 30%;
+    margin: 1rem;
+    padding: 0.5rem;
+    height: fit-content;
+}
+
+.checkout-page .checkout-parent .checkout-card .heading {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.checkout-page .checkout-parent .checkout-card .product-price-name {
+    display: flex;
+    margin: .25rem 0;
+    justify-content: space-between;
+}
+
+.checkout-page .checkout-parent .checkout-card .product-price-name .item-title {
+    margin-right: 1rem;
+}
+
+
+.checkout-page .checkout-parent .checkout-card .price-details {
+    margin: 0.5rem 0 1rem;
+    display: block;
+}
+
+.checkout-page .checkout-parent .checkout-card .price-details .price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-page .checkout-parent .checkout-card .price-details .discount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-page .checkout-parent .checkout-card .price-details .delivery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-page .checkout-parent .checkout-card .price-details .total-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-page .checkout-parent .checkout-card .address .heading {
+    margin-bottom: 0.45rem;
+}
+
+.checkout-page .checkout-parent .checkout-card .place-order {
+    width: 100%;
+    margin: 0.5rem 0 0.25rem;
+    font-size: 1.25rem;
+    background-color: #000;
+    color: #fff;
+    padding: 0.25rem;
+    border: 0;
+    border-radius: 0.25rem;
+    transition: 0.25s;
+}
+
+.checkout-page .checkout-parent .checkout-card .place-order:hover {
+    color: rgba(0, 0, 0, 0.9);
+    background-color: #fff;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.checkout-page .checkout-parent .checkout-card .place-order:active {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+}

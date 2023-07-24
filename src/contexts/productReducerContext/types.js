@@ -1,0 +1,6 @@
+export const types = {
+    SEARCH: 'SEARCH',
+    ADD_ADDRESS: 'ADD_ADDRESS',
+    EDIT_ADDRESS: 'EDIT_ADDRESS',
+    REMOVE_ADDRESS: 'REMOVE_ADDRESS'
+}

@@ -1,0 +1,137 @@
+.front-img {
+    background: url(/src/resources/images/landing_page_image.jpg);
+    width: 100%;
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.front-img .img-head {
+    font-weight: 400;
+    line-height: 2rem;
+    font-size: 2rem;
+}
+
+.categories-parent {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0.5rem;
+
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 1rem;
+}
+
+@media only screen and (max-width: 1110px) {
+    .categories-parent {
+        grid-template-columns: repeat(2, 1fr);
+
+        grid-template-rows: repeat(3, 1fr)
+    }
+
+    .front-img .img-head {
+        line-height: 1.5rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .categories-parent {
+        margin: auto;
+
+        grid-row-gap: 0.5rem;
+    }
+
+    .front-img .img-head {
+        line-height: 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .categories-parent {
+        display: block;
+        width: 80%;
+    }
+    
+    .categories {
+        display: block;
+        width: 100%;
+        margin: 0.5rem auto !important;
+    }
+
+    .front-img .img-head {
+        line-height: 0.75rem;
+        font-size: 0.5rem;
+    }
+
+    .categories .category-head {
+        background-color: rgba(0, 0, 0, 0.4);
+        visibility: visible !important;
+    }
+
+
+}
+
+.categories {
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 10px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin: 1rem 1rem;
+    margin: auto;
+    cursor: pointer;
+}
+
+.categories:hover {
+    .category-head {
+        visibility: visible;
+    }
+}
+
+.categories .category-head {
+    position: absolute;
+    /* top: 73%; */
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    margin: 0 0 0 1.5rem;
+    color: #fff;
+    visibility: hidden;
+    font-weight: 500;
+}
+
+
+.categories .img-container {
+    width: 20rem;
+    height: 12rem;
+}
+
+.categories .img-container img {
+    width: 100%;
+    height: 100%;
+    transition: 0.25s;
+}
+
+.categories .img-container img:hover {
+    transform: scale(1.1);
+    filter: blur(5px);
+}
+
+
+.category-img-container {
+    width: 100%;
+}
+
+.category-img-container img {
+    width: 100%;
+}

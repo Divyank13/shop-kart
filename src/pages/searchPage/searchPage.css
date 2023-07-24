@@ -1,0 +1,62 @@
+@media only screen and (max-width: 715px) {
+    .search-page {
+        margin-top: 6.25rem !important;
+    }
+    .search-page .data-not-found p {
+        font-size: 1rem !important;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .search-page {
+        margin-top: 6.5rem !important;
+    }
+}
+
+.search-page {
+    margin-top: 4.5rem;
+}
+
+.search-page .data-not-found {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-page .data-not-found p {
+    margin: 0 1.5rem;
+    font-size: 1.5rem;
+}
+
+.search-page .data-found .data-search-results {
+    width: 80%;
+    margin: auto;
+}
+.search-page .data-found .data-search-results .heading{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.search-page .data-found .searched-products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+
+.search-page .data-found .data-search-suggestions {
+    width: 80%;
+    margin: auto;
+}
+.search-page .data-found .data-search-suggestions .heading{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.search-page .data-found .search-suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

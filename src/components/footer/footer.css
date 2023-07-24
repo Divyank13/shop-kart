@@ -1,0 +1,31 @@
+.footer {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0 4px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    transition: 0.25s;
+}
+
+.footer a:hover {
+    opacity: 75%;
+}
+
+.footer a:active {
+    opacity: 100%;
+}
+
+.footer .links a {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+
+.footer p a {
+    font-size: 1.15rem;
+    font-weight: 500;
+}
