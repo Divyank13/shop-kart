@@ -31,7 +31,7 @@ export const Footer = () => {
       <p className="copyright">
         © No Copyright, Developed by{" "}
         <a
-          href="https://github.com/divyank13/"
+          href="https://github.com/Divyank13/shop-kart"
           className="shobhit"
           target="_blank"
         >

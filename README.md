@@ -1,17 +1,18 @@
 <div align="center">
     
-# Raj-Kart
+# Shop-Kart
   An Ecommerce website
 </div>
 
 ## **How to install and run locally ?**
 
 ```
-$ git clone https://github.com/shobhit-28/neog_project_1_ecommerce.git
-$ cd neog_project_1_ecommerce.git
+$ git clone git@github.com:Divyank13/shop-kart.git
+$ cd shop-kart
 $ npm install
 $ npm start
 ```
+
 ## **Features -**
 
 - Home page
@@ -28,8 +29,8 @@ $ npm start
 - Authentication:
   - User Signup
   - User Login
- - Fully Responsive
- - Loaders and Toasts
+- Fully Responsive
+- Loaders and Toasts
 
 ## **Built with -**
 
@@ -38,8 +39,3 @@ $ npm start
 - React Router v6
 - Vanilla CSS
 - Razorpay payment gateway
-
-## **Demo -**
-
-https://github.com/shobhit-28/neog_project_1_ecommerce/assets/92620327/d83fddbe-37d7-4945-897f-26c3e18b605a
-
