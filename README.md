@@ -39,3 +39,11 @@ $ npm start
 - React Router v6
 - Vanilla CSS
 - Razorpay payment gateway
+
+## **Demo -**
+
+
+
+https://github.com/Divyank13/shop-kart/assets/88246002/3abd8eb8-de47-4de0-9602-7f7a264020da
+
+
