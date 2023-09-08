@@ -30,7 +30,7 @@ export const HomePage = () => {
                 <>
                     <div className="front-img">
                         <p className="img-head">
-                            Discover the Ultimate Shopping Experience at Raj-Kart <br />
+                            Discover the Ultimate Shopping Experience at Shop-Kart <br />
                             Your One-Stop Destination for All Your Shopping Needs!
                         </p>
                     </div>
